@@ -11,8 +11,6 @@ const projects = [
     image: "/assets/projet1.png",
     title: "Cube Connect",
     langage: "React Js",
-    description:
-      "  Minim dolor in amet nulla laboris enim dolore consequat proiden",
     href: "https://cubeconnectwebsite.netlify.app/",
     github: "https://github.com/sountea/CubeConnectWebsite",
   },
@@ -22,10 +20,8 @@ const projects = [
     image: "/assets/photo2.png",
     title: "Le site actuel",
     langage: "React Js",
-    description:
-      "  Minim dolor in amet nulla laboris enim dolore consequat proiden",
-    href: "https://cubeconnectwebsite.netlify.app/",
-    hrefgithub: "https://github.com/sountea/CubeConnectWebsite",
+    href: "https://torasounteadeyane.netlify.app/",
+    hrefgithub: "https://github.com/sountea/Monportfolio/tree/master",
   },
 ];
 
@@ -35,8 +31,7 @@ const Projects = () => {
       <h1 className="text-center p-10 text-4xl project_title">Projets</h1>
       <div className="project_container">
         {projects.map((elem) => {
-          const { id, image, title, langage, description, href, hrefgithub } =
-            elem;
+          const { id, image, title, langage, href, hrefgithub } = elem;
           return (
             <div className="card pt-5 " key={id}>
               <div

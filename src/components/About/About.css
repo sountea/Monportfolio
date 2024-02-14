@@ -3,7 +3,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: red;
 }
 @media screen and (max-width: 992px) {
   .image {
@@ -14,7 +13,6 @@
     width: 440px;
     height: 430px;
     font-size: 15px;
-   
   }
   .Content {
     margin: auto;
