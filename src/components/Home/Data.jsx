@@ -23,7 +23,7 @@ const Data = () => {
       </div>
 
       <h2 className="text-xl subtitle relative sm:pl-16 lg:pl-1 ">
-        Developpeuse web
+        Développeuse web
       </h2>
 
       <p className="mt-5 mb-5">
