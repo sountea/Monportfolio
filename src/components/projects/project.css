@@ -1,0 +1,29 @@
+.project_container{
+    display: grid;
+  grid-template-columns: repeat(2, 300px);
+  column-gap: 3rem;
+  justify-content: center;
+
+
+}
+@media screen and (max-width: 992px) {
+    .project_container {
+      grid-template-columns: max-content;
+      row-gap: 2rem;
+      
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .project_container {
+      grid-template-columns: 1fr;
+      margin-left: 44px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+  }
+  @media screen and (max-width: 300px) {
+    .project_title {
+      font-size: 33px;
+    }
+  }
+  

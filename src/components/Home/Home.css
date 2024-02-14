@@ -1,0 +1,127 @@
+.subtitle {
+  position: relative;
+
+  margin: 2px auto;
+  text-align: center;
+}
+
+.subtitle::before {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: black;
+}
+.home-content {
+  grid-template-columns: 116px repeat(2, 1fr);
+  padding-top: 5.5em;
+  align-items: center;
+}
+.home-image {
+  order: 1;
+  justify-self: center;
+  background-image: url("/public/assets/photo.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 0 9px rgb(255 255 255/30%);
+
+  -webkit-animation: profile__animate 8s ease-in-out infinite 1s;
+  animation: profile__animate 8s ease-in-out infinite 1s;
+}
+@-webkit-keyframes profile__animate {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 70% / 50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+@keyframes profile__animate {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 70% / 50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+@media screen and (max-width: 684px) {
+  .home-content {
+    grid-template-columns: 0.5fr 3fr;
+    padding-top: 3.5em;
+    align-items: center;
+  }
+  .home-image {
+    order: initial;
+    justify-self: initial;
+    width: 250px;
+    height: 300px;
+  }
+  .home-data {
+    grid-column: 1/3;
+    margin: 10px;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .hand {
+    width: 30px;
+    height: 30px;
+  }
+  .subtitle{
+    font-size: 20px;
+  }
+  .subtitle::before {
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: black;
+  }
+}
+@media screen and (max-width: 300px) {
+  .home-content {
+    grid-template-columns: 0.5fr 3fr;
+    padding-top: 3.5em;
+    align-items: center;
+  }
+  .home-image {
+    order: initial;
+    justify-self: initial;
+    width: 210px;
+    height: 280px;
+  }
+  .home-data {
+    grid-column: 1/3;
+    margin: 10px;
+  }
+  .title {
+    font-size: 19px;
+  }
+  .hand {
+    width: 20px;
+    height: 20px;
+  }
+  .subtitle::before {
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: black;
+  }
+}
