@@ -10,9 +10,7 @@ const Home = () => {
         <div className="home-content grid gap-7 sm:grid-cols-1">
           <SocialIcons />
 
-          <div className=" bg-red-500 home-image h-96 w-80  shadow-red-500 ">
-            {" "}
-          </div>
+          <div className="home-image h-96 w-80  shadow-red-500 "> </div>
           <Data />
         </div>
       </div>
