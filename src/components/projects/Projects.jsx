@@ -23,6 +23,15 @@ const projects = [
     href: "https://torasounteadeyane.netlify.app/",
     hrefgithub: "https://github.com/sountea/Monportfolio/tree/master",
   },
+  {
+    id: 3,
+
+    image: "/assets/projet3.png",
+    title: "Pig Game",
+    langage: "HTML,CSS, Javascript ",
+    href: "https://piggamedeyane-hosting-b002a.web.app/",
+    github: "https://github.com/sountea/Pig-Game",
+  },
 ];
 
 const Projects = () => {
