@@ -12,7 +12,7 @@ const projects = [
     title: "Cube Connect",
     langage: "React Js",
     href: "https://cubeconnectwebsite.netlify.app/",
-    github: "https://github.com/sountea/CubeConnectWebsite",
+    hrefgithub: "https://github.com/sountea/CubeConnectWebsite",
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const projects = [
     title: "Pig Game",
     langage: "HTML,CSS, Javascript ",
     href: "https://piggamedeyane-hosting-b002a.web.app/",
-    github: "https://github.com/sountea/Pig-Game",
+    hrefgithub: "https://github.com/sountea/Pig-Game",
   },
 ];
 
