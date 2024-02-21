@@ -26,7 +26,7 @@ const projects = [
   {
     id: 3,
 
-    image: "/assets/projet3.png",
+    image: "/assets/photo3.png",
     title: "Pig Game",
     langage: "HTML,CSS, Javascript ",
     href: "https://piggamedeyane-hosting-b002a.web.app/",

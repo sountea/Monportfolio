@@ -2,17 +2,16 @@
   width: 300px;
   border: 1px solid;
   border-color: black;
- 
+
   border-radius: 1.25rem;
- 
+
   overflow: hidden;
+  margin-top: 2rem;
 }
 .card1 {
-
-  width:220px;
+  width: 220px;
   height: 200px;
 
   background-repeat: no-repeat;
   background-size: cover;
- 
 }
